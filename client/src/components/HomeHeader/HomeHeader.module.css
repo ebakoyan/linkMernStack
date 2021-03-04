@@ -1,0 +1,9 @@
+.container {
+    background-color: #422057FF;
+    display: flex;
+    justify-content: right;
+}
+
+.container a {
+    margin: 5px;
+}

@@ -1,0 +1,86 @@
+.Home {
+    transition: 1s;
+    width: 100%;
+    background-color: #E8142E;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.photo {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.photo img {
+    width: 300px;
+}
+
+.input {
+    display: flex;
+    border-radius: 10px;
+    /* padding: 10px; */
+    display: inline;
+    background-color: #F5CD08;
+    align-items: center;
+}
+
+.input input {
+    border-radius: 10px;
+    padding: 6px 0;
+    overflow: hidden;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 800;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #422057FF;
+    background-color: #F5CD08;
+    border: none;
+    transition: 1s;
+}
+
+.input input:hover {
+    background-color: #422057FF;
+    color: #F5CD08;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    font-weight: 800;
+    margin-top: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #422057FF;
+    color: #F5CD08;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn:hover {
+    color: #422057FF;
+    background-color: #F5CD08;
+}
+
+.input input::placeholder {
+    color: #422057FF;
+}
+
+button:focus {
+    outline: none;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
